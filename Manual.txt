@@ -20,9 +20,9 @@
 
 3 สร้างโฟลเดอร์เก็บโปรเจคที่เครื่อง
     echo "# GIT-Learning" >> README.md
-    git init                                                               ======>
-    git add README.md
+    git init                                                               ======>   ขื่อไฟล์จะเปลี่ยนสี ท้ายเป็น U
+    git add .                                                              ======>   ขื่อ ท้ายเป็น A
     git commit -m "first commit"                                           ======>
     git branch -M main                                                     ======>
-    git remote add origin https://github.com/ApimukManoue/GIT-Learning.git ======>
-    git push -u origin main                                                ======>
+    git remote add origin https://github.com/ApimukManoue/GIT-Learning.git ======>   เชื่อมต่อ
+    git push -u origin main                                                ======>   Upload
