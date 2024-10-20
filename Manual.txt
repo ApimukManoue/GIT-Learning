@@ -26,3 +26,27 @@
     git branch -M main                                                     ======>
     git remote add origin https://github.com/ApimukManoue/GIT-Learning.git ======>   เชื่อมต่อ
     git push -u origin main                                                ======>   Upload
+
+  การอัพเดทโปรเจค
+    git add .                                                              ======>   ขื่อ ท้ายเป็น A
+    git commit -m "first commit"                                           ======>
+    git push -u origin main                                                ======>   Upload
+
+
+4 การ fork repository คือการเอาโปรเจคของคนอื่นมาเป็น repository ของเรา
+  
+  ไปที่ google แล้วค้านหา github react project topic
+  เลือกสักโปรเจค แล้วเข้าไป
+
+  กดปุ่ม Fork ตรงกลางด้านบนขวา จะเป็นการสร้าง repository จากโปรเจคนี้
+
+  ต้ังชื่อ repository หรือเอาชื่อเดิม แล้วกด Create Fork จะได้ repository มาเป็นของเรา
+
+5 การโคลนโปรเจค  (จะใช้วิธีดาวน์โหลด Zip หรือ โคลนก็ตามแต่)
+  
+
+  
+
+
+
+
