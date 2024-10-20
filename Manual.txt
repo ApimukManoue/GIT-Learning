@@ -1,0 +1,28 @@
+
+ขั้นตอน 
+
+1 ไปที่ https://github.com/ ล็อกอินให้เรียบร้อย
+
+2 สร้างโฟลเดอร์เก็บโปรเจคบน github (Repository (Repo)) โดยคลิ๊ก + ที่มุมบนขวา -> New repository
+    Repository name
+    Description (optional)
+    Public
+
+    ไม่ต้อง Add a README file
+
+
+
+
+
+
+  ***การลบ Repository เลือก Repository แล้วไปที่แทป setting แล้วเลื่อนลงมาที่ Danger Zone คลิ๊กปุ่ม Delete this repository
+     คลิ๊กปุ่ม I want to delete .... -> I have read ..... -> copy repository name and paste and click
+
+3 สร้างโฟลเดอร์เก็บโปรเจคที่เครื่อง
+    echo "# GIT-Learning" >> README.md
+    git init                                                               ======>
+    git add README.md
+    git commit -m "first commit"                                           ======>
+    git branch -M main                                                     ======>
+    git remote add origin https://github.com/ApimukManoue/GIT-Learning.git ======>
+    git push -u origin main                                                ======>
